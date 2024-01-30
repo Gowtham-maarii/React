@@ -1,0 +1,64 @@
+.header-main
+{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color:green;
+}
+
+.header-main > .header-container
+{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    
+
+}
+
+.header-container > .title-name
+{
+
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.title-name > .title
+{
+
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.header-container > .action-icon-container
+{
+
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    
+}
+
+.action-icon-container > .icon
+{
+
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: .5rem;
+}
+
+.action-icon-container > .icon >img
+{
+
+    width: 1.5rem;
+    height: 1.5rem;
+}
